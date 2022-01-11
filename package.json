@@ -1,0 +1,30 @@
+{
+  "name": "bot-vk-birthday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec npm run babel-node -- src/app.js",
+    "babel-node": "babel-node --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sacredwings/bot-vk-birthday.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sacredwings/bot-vk-birthday/issues"
+  },
+  "homepage": "https://github.com/sacredwings/bot-vk-birthday#readme",
+  "dependencies": {
+    "social-framework": "^0.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "nodemon": "^2.0.15"
+  }
+}
