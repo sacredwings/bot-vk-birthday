@@ -112,7 +112,7 @@ async function friends_message_send (token, user_id, message) {
     let url = `https://api.vk.com/method/messages.send?user_id=${user_id}&message=${message}&random_id=${seconds}&access_token=${token}&v=5.103`;
     console.log(url)
 
-    /*
+
     //запрос новостей
     let result = await axios({
         method: 'get',
@@ -123,5 +123,5 @@ async function friends_message_send (token, user_id, message) {
     if ((result.data) && (result.data.response))
         return true;
 
-    return false;*/
+    return false;
 }
