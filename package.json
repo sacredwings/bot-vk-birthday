@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sacredwings/bot-vk-birthday#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "social-framework": "^0.0.15"
   },
   "devDependencies": {
